@@ -241,7 +241,18 @@ prateek mishra{
         vector<int> vec, v1, v2;
  
 /*      =====================================================================================*/
-        //func();
+        int n;
+        cin>>n;
+
+        while(true) {
+          if(n<=2){
+            break;
+          }
+          ans += n/3;
+          n = n-(n/3)*2;
+        }
+
+        cout<<ans<<endl;
   }
        //input.close();
        //output.close();
