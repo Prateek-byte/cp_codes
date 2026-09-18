@@ -238,8 +238,6 @@ prateek mishra{
         set<string> ss;
         set<char> sc;
         set<int> st, stt;
-        vector<int> vec, v1, v2;
- 
 /*      =====================================================================================*/
         //func();
   }
